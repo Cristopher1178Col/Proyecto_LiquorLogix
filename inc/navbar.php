@@ -1,14 +1,13 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
-
     <div class="navbar-brand">
         <a class="navbar-item" href="index.php?vista=home">
-        <img src="./img/logo.png" width="70" height="60">
+            <img src="./img/logo.png" width="70" height="60" alt="Logo">
         </a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>    
-        <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>    
+            <span aria-hidden="true"></span>
         </a>
     </div>
 
@@ -45,6 +44,23 @@
                     <a href="index.php?vista=product_search" class="navbar-item">Buscar</a>
                 </div>
             </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Caja</a>
+
+                <div class="navbar-dropdown">
+                    <a href="index.php?vista=cashier_list" class="navbar-item">Lista</a>
+            </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Ventas</a>
+
+                <div class="navbar-dropdown">
+                    <a href="index.php?vista=sale_new" class="navbar-item">Nueva</a>
+            </div>
+            </div>
+
+
+
 
         </div>
 
