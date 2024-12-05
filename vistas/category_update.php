@@ -1,6 +1,9 @@
 <div class="container is-fluid mb-6">
-	<h1 class="title">Categorías</h1>
-	<h2 class="subtitle">Actualizar categoría</h2>
+ <div class="has-text-centered mb-5"> 
+    <h1 class="title is-3 has-text-info"> 
+        <br><br> 
+        <i class="fas fa-search"></i>Actualizar categoría</h1>
+	<h2 class="subtitle">Opps ¿te has equivocado en algo?</h2>
 </div>
 
 <div class="container pb-6 pt-6">

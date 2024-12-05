@@ -1,9 +1,12 @@
 <div class="container is-fluid mb-6">
-    <h1 class="title">Categorías</h1>
-    <h2 class="subtitle">Buscar categoría</h2>
+ <div class="has-text-centered mb-5"> 
+    <h1 class="title is-3 has-text-info"> 
+        <br><br> 
+        <i class="fas fa-search"></i>Buscar categoria</h1>
+    <h2 class="subtitle">¿Que categoria deseas buscar?</h2>
 </div>
 
-<div class="container pb-6 pt-6">
+<div class="box">
     <?php
         require_once "./php/main.php";
 

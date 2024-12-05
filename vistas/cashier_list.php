@@ -1,5 +1,8 @@
 <div class="container is-fluid mb-6">
-    <h1 class="title">Caja</h1>
+ <div class="has-text-centered mb-5"> 
+    <h1 class="title is-3 has-text-info"> 
+        <br><br> 
+        <i class="fas fa-search"></i> Caja </h1>
     <h2 class="subtitle">Monto Actual</h2>
     
     <div class="box">
@@ -20,6 +23,7 @@
             <div class="control">
                 <button type="submit" class="button is-primary is-rounded">Registrar Monto</button>
             </div>
+            <br>
         </form>
 
         <?php

@@ -1,9 +1,12 @@
 <div class="container is-fluid mb-6">
-	<h1 class="title">Productos</h1>
-	<h2 class="subtitle">Nuevo producto</h2>
+ <div class="has-text-centered mb-5"> 
+    <h1 class="title is-3 has-text-info"> 
+        <br><br> 
+        <i class="fas fa-search"></i>Nuevo producto</h1>
+	<h2 class="subtitle">Registra un nuevo producto en el sistema</h2>
 </div>
 
-<div class="container pb-6 pt-6">
+<div class="box">
 	<?php
 		require_once "./php/main.php";
 	?>
@@ -42,7 +45,7 @@
 				<label>Categoría</label><br>
 		    	<div class="select is-rounded">
 				  	<select name="producto_categoria" >
-				    	<option value="" selected="" >Seleccione una opción</option>
+				    	<option value="" selected="" >Seleccione una categoria</option>
 				    	<?php
     						$categorias=conexion();
     						$categorias=$categorias->query("SELECT * FROM categoria");
@@ -67,7 +70,7 @@
 				    	<span class="file-cta">
 				      		<span class="file-label">Imagen</span>
 				    	</span>
-				    	<span class="file-name">JPG, JPEG, PNG. (MAX 3MB)</span>
+				    	<span class="file-name">JPG, JPEG, PNG.</span>
 				  	</label>
 				</div>
 			</div>

@@ -1,9 +1,12 @@
 <div class="container is-fluid mb-6">
-	<h1 class="title">Categorías</h1>
-	<h2 class="subtitle">Nueva categoría</h2>
+ <div class="has-text-centered mb-5"> 
+    <h1 class="title is-3 has-text-info"> 
+        <br><br> 
+        <i class="fas fa-search"></i> Nueva categoria</h1>
+	<h2 class="subtitle">Registra una nueva categoria en el sistema</h2>
 </div>
 
-<div class="container pb-6 pt-6">
+<div class="box">
 
 	<div class="form-rest mb-6 mt-6"></div>
 

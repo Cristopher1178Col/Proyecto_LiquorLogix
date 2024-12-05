@@ -1,6 +1,8 @@
-
 <div class="container is-fluid mb-6">
-    <h1 class="title">Registrar Venta</h1>
+ <div class="has-text-centered mb-5"> 
+    <h1 class="title is-3 has-text-info"> 
+        <br><br> 
+        <i class="fas fa-search"></i> Nueva venta </h1>
     <h2 class="subtitle">Formulario de Venta</h2>
     <form action="index.php?vista=venta_guardar" method="POST">
         <div class="box">
