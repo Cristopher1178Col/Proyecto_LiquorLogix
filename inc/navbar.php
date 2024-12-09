@@ -1,8 +1,10 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="index.php?vista=home">
-            <img src="./img/logo.png" width="70" height="60" alt="Logo">
-        </a>
+
+    <a class="navbar-item logo-container" href="index.php?vista=home">
+    <img src="./img/logo.png" class="logo" alt="Logo">
+    </a>
+
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>

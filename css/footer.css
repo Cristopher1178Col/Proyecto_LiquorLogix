@@ -1,0 +1,46 @@
+.footer {
+    background-color: #f5f5f5; /* Fondo claro para contraste */
+    padding: 2rem 1rem; /* Espaciado interno */
+    border-top: 3px solid #48c774; /* Línea decorativa superior */
+}
+
+.footer h3 {
+    color: #363636; /* Texto oscuro */
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    color: #4a4a4a;
+    line-height: 1.5;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    color: #3273dc; /* Azul estándar de Bulma */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #48c774; /* Verde estándar de Bulma */
+}
+
+.footer hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.footer .has-text-centered p {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+}
